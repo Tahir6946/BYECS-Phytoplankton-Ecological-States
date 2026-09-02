@@ -196,7 +196,7 @@ Results/05_CatBoost_SHAP/02_State_Specific_SHAP_Importance.csv
 
 ## Software environment
 
-The exact package versions used for the final analysis should be recorded in `requirements.txt`. Core dependencies include Python, NumPy, pandas, SciPy, scikit-learn, statsmodels, matplotlib, CatBoost, XGBoost, TensorFlow/Keras, Optuna, and joblib.
+Package requirements for reproducing the analysis are listed in requirements.txt. Core dependencies include Python, NumPy, pandas, SciPy, scikit-learn, statsmodels, matplotlib, CatBoost, XGBoost, TensorFlow/Keras, Optuna, and joblib.
 
 ## Citation
 
@@ -204,8 +204,8 @@ If you use this repository, please cite the associated manuscript and the archiv
 
 **Manuscript citation:** To be added after publication.
 
-**Zenodo DOI:** Zenodo DOI: 10.5281/zenodo.22241189
+**Zenodo DOI:** 10.5281/zenodo.22241189
 
 ## Code availability statement
 
-The analysis and figure-generation code supporting this study is publicly available through this repository. A versioned archival copy will also be deposited on Zenodo and assigned a DOI.
+The analysis and figure-generation code supporting this study is publicly available through this repository and is archived on Zenodo (DOI: 10.5281/zenodo.22241189).
