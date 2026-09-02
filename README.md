@@ -204,7 +204,7 @@ If you use this repository, please cite the associated manuscript and the archiv
 
 **Manuscript citation:** To be added after publication.
 
-**Zenodo DOI:** To be added after the repository is archived.
+**Zenodo DOI:** Zenodo DOI: 10.5281/zenodo.22241189
 
 ## Code availability statement
 
