@@ -11,9 +11,9 @@ The study examines monthly phytoplankton community organization across the Bohai
 ```text
 Phytoplankton_Ecological_States/
 │
-├── Code/
-│   ├── 01_Complete_Analysis_Pipeline.py
-│   └── 02_Figure_Generation.py
+├── Scripts/
+│   ├── python Scripts/01_Complete_Analysis_Pipeline.py
+│   └── python Scripts/02_Figure_Generation.py
 │
 ├── Data/
 │   ├── 01_Raw_Species_Environmental_Monthly_Data.xlsx
