@@ -1,0 +1,24 @@
+# Core numerical and data handling
+numpy>=1.23,<3
+pandas>=1.5,<3
+scipy>=1.9,<2
+
+# Statistical analysis and machine learning
+scikit-learn>=1.2,<2
+statsmodels>=0.14,<1
+joblib>=1.2,<2
+
+# Tree-based models and optimization
+catboost>=1.2,<2
+xgboost>=2.0,<4
+optuna>=3.0,<5
+
+# Deep learning
+tensorflow>=2.10,<3
+
+# Plotting and figure export
+matplotlib>=3.7,<4
+Pillow>=9,<12
+
+# Excel input/output
+openpyxl>=3.1,<4

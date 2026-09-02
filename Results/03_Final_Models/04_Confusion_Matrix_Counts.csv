@@ -1,0 +1,64 @@
+Model,True_State,Predicted_State,Count
+Seasonal Baseline,1,1,68
+Seasonal Baseline,1,2,7
+Seasonal Baseline,1,3,0
+Seasonal Baseline,2,1,7
+Seasonal Baseline,2,2,52
+Seasonal Baseline,2,3,9
+Seasonal Baseline,3,1,28
+Seasonal Baseline,3,2,13
+Seasonal Baseline,3,3,51
+CatBoost,1,1,68
+CatBoost,1,2,4
+CatBoost,1,3,3
+CatBoost,2,1,1
+CatBoost,2,2,56
+CatBoost,2,3,11
+CatBoost,3,1,27
+CatBoost,3,2,12
+CatBoost,3,3,53
+XGBoost,1,1,64
+XGBoost,1,2,5
+XGBoost,1,3,6
+XGBoost,2,1,2
+XGBoost,2,2,55
+XGBoost,2,3,11
+XGBoost,3,1,27
+XGBoost,3,2,12
+XGBoost,3,3,53
+HistGradientBoosting,1,1,58
+HistGradientBoosting,1,2,3
+HistGradientBoosting,1,3,14
+HistGradientBoosting,2,1,3
+HistGradientBoosting,2,2,53
+HistGradientBoosting,2,3,12
+HistGradientBoosting,3,1,18
+HistGradientBoosting,3,2,13
+HistGradientBoosting,3,3,61
+Equal Soft Voting,1,1,67
+Equal Soft Voting,1,2,3
+Equal Soft Voting,1,3,5
+Equal Soft Voting,2,1,3
+Equal Soft Voting,2,2,54
+Equal Soft Voting,2,3,11
+Equal Soft Voting,3,1,26
+Equal Soft Voting,3,2,11
+Equal Soft Voting,3,3,55
+TCN,1,1,55
+TCN,1,2,7
+TCN,1,3,13
+TCN,2,1,1
+TCN,2,2,57
+TCN,2,3,10
+TCN,3,1,20
+TCN,3,2,10
+TCN,3,3,62
+CNN-LSTM,1,1,66
+CNN-LSTM,1,2,2
+CNN-LSTM,1,3,7
+CNN-LSTM,2,1,4
+CNN-LSTM,2,2,53
+CNN-LSTM,2,3,11
+CNN-LSTM,3,1,22
+CNN-LSTM,3,2,13
+CNN-LSTM,3,3,57

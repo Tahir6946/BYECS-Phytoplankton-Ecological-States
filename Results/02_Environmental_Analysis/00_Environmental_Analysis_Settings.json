@@ -1,0 +1,27 @@
+{
+  "raw_file": "D:\\Prof Ali 2026\\Spec_August_analysis\\Final_Analysis\\Data\\01_Raw_Species_Environmental_Monthly_Data.xlsx",
+  "state_file": "D:\\Prof Ali 2026\\Spec_August_analysis\\Final_Analysis\\Results\\01_State_Discovery\\09_Final_Ecological_States.csv",
+  "final_model_file": "D:\\Prof Ali 2026\\Spec_August_analysis\\Final_Analysis\\Data\\04_Final_Current_Environmental_Modeling_Data.csv",
+  "predictor_family": "Current environmental conditions only",
+  "environmental_features": [
+    "SST",
+    "NO3",
+    "PO4",
+    "SPCo2",
+    "MLD",
+    "SSS",
+    "SSH",
+    "PAR",
+    "PDO",
+    "NINO_3.4",
+    "WPI",
+    "MHW_MeanInt",
+    "MHW_MaxInt",
+    "MHW_CumInt"
+  ],
+  "number_of_predictors": 14,
+  "number_of_observations": 240,
+  "target": "Ecological_State",
+  "fdr_method": "Benjamini-Hochberg",
+  "primary_effect_size": "Kruskal-Wallis epsilon-squared"
+}

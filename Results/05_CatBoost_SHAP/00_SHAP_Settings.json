@@ -1,0 +1,34 @@
+{
+  "purpose": "Final CatBoost interpretation; no model training performed",
+  "data_file": "D:\\Prof Ali 2026\\Spec_August_analysis\\Final_Analysis\\Data\\04_Final_Current_Environmental_Modeling_Data.csv",
+  "model_file": "D:\\Prof Ali 2026\\Spec_August_analysis\\Final_Analysis\\Models\\Final_Six_Models\\Final_CatBoost.cbm",
+  "observations": 240,
+  "features": [
+    "SST",
+    "NO3",
+    "PO4",
+    "SPCo2",
+    "MLD",
+    "SSS",
+    "SSH",
+    "PAR",
+    "PDO",
+    "NINO_3.4",
+    "WPI",
+    "MHW_MeanInt",
+    "MHW_MaxInt",
+    "MHW_CumInt"
+  ],
+  "model_classes": [
+    0,
+    1,
+    2
+  ],
+  "reported_ecological_states": [
+    1,
+    2,
+    3
+  ],
+  "maximum_shap_additivity_error": 4.440892098500626e-15,
+  "important_reporting_note": "Use LOYO results for predictive performance. The full-data model is used only for final SHAP interpretation."
+}

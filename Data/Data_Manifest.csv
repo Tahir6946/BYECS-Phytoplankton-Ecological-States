@@ -1,0 +1,4 @@
+﻿Final_File_Name,Original_File_Name,Role,Intended_Use,Status
+01_Raw_Species_Environmental_Monthly_Data.xlsx,Species_DF.xlsx,Primary raw input,Start the complete CLR-PCA-K-means and environmental analysis,Copied successfully
+02_Reference_Final_Ecological_States.xlsx,Final_Ecological_States.xlsx,Reference checkpoint,Compare newly regenerated ecological-state assignments,Copied successfully
+03_Reference_Environmental_Modeling_Data.xlsx,Environmental_Modeling_Data.xlsx,Reference checkpoint,Compare newly regenerated modelling data and labels,Copied successfully

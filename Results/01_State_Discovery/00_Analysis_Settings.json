@@ -1,0 +1,18 @@
+{
+  "raw_file": "D:\\Prof Ali 2026\\Spec_August_analysis\\Final_Analysis\\Data\\01_Raw_Species_Environmental_Monthly_Data.xlsx",
+  "phytoplankton_groups": [
+    "DIATO",
+    "DINO",
+    "HAPTO",
+    "GREEN",
+    "PROKAR",
+    "PROCHLO"
+  ],
+  "stl_period": 12,
+  "retained_pcs": 2,
+  "final_k": 3,
+  "kmeans_n_init": 100,
+  "random_state": 42,
+  "bootstrap_runs": 200,
+  "seed_runs": 100
+}

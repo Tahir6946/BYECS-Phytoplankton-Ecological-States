@@ -1,0 +1,44 @@
+{
+  "data_file": "D:\\Prof Ali 2026\\Spec_August_analysis\\Final_Analysis\\Data\\04_Final_Current_Environmental_Modeling_Data.csv",
+  "features": [
+    "SST",
+    "NO3",
+    "PO4",
+    "SPCo2",
+    "MLD",
+    "SSS",
+    "SSH",
+    "PAR",
+    "PDO",
+    "NINO_3.4",
+    "WPI",
+    "MHW_MeanInt",
+    "MHW_MaxInt",
+    "MHW_CumInt"
+  ],
+  "final_models": [
+    "CatBoost",
+    "XGBoost",
+    "HistGradientBoosting",
+    "Equal Soft Voting",
+    "TCN",
+    "CNN-LSTM"
+  ],
+  "reference_model": "Seasonal Baseline",
+  "outer_validation": "Leave-one-year-out",
+  "tree_optimization": "Optuna TPE with grouped inner CV",
+  "optuna_trials": 20,
+  "inner_folds": 4,
+  "lookback_months": 6,
+  "common_held_out_observations": 235,
+  "maximum_dl_epochs": 200,
+  "dl_batch_size": 16,
+  "random_state": 42,
+  "tree_gpu_enabled": true,
+  "final_dl_validation_years": [
+    2005,
+    2006,
+    2017,
+    2020
+  ]
+}

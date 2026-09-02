@@ -1,0 +1,27 @@
+{
+  "input_file": "D:\\Prof Ali 2026\\Spec_August_analysis\\Final_Analysis\\Results\\03_Final_Models\\01_LOYO_Held_Out_Predictions.csv",
+  "models": [
+    "CatBoost",
+    "Equal Soft Voting",
+    "CNN-LSTM",
+    "TCN",
+    "XGBoost",
+    "HistGradientBoosting",
+    "Seasonal Baseline"
+  ],
+  "states": [
+    1,
+    2,
+    3
+  ],
+  "observations": 235,
+  "calibration_bins": 10,
+  "calibration_strategy": "Quantile bins",
+  "threshold_minimum": 0.01,
+  "threshold_maximum": 0.99,
+  "threshold_count": 99,
+  "bootstrap_unit": "Year",
+  "bootstrap_runs": 2000,
+  "random_state": 42,
+  "dca_interpretation": "One-versus-rest ecological decision utility"
+}
